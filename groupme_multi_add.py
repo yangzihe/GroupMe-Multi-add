@@ -46,7 +46,8 @@ def csvToJson():
 
 def add_members():
     json_members = csvToJson()
-    requests.post(GROUPME_API_URL + "/groups/" + GROUP_ID + "/members/add" + "?token=" + ACCESS_TOKEN, data=json_members)
+    requests.post(GROUPME_API_URL + "/groups/" + GROUP_ID + "/members/add" +
+                  "?token=" + ACCESS_TOKEN, data=json_members)
 
 
 def main():
