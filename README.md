@@ -4,7 +4,9 @@ A small Python script I wrote in order to bulk add a list of members from a .csv
 
 ## Installation
 
-In your terminal, run `git clone https://github.com/yangzihe/GroupMe-Multi-add.git` in the directory you would like to keep this script in.
+* In your terminal, run `git clone https://github.com/yangzihe/GroupMe-Multi-add.git` in the directory you would like to keep this script in.
+
+* Install the Python Requests Library from [here](http://docs.python-requests.org/en/master/user/install/#install).
 
 ## Usage
 
