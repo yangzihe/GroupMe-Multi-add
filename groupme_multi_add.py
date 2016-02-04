@@ -3,16 +3,16 @@ import json
 import requests
 
 # Name of your roster csv file
-roster = "bangzi.csv"
+roster = "REPLACE ME"
 
 # Number of lines before the first member of your roster
 LINES_TO_SKIP = 6
 
 # Your access token. See README for details on how to obtain
-ACCESS_TOKEN = "0a602c90ad460133280f2d28fad7266d"
+ACCESS_TOKEN = "REPLACE ME"
 
 # Group Id. See README for details on how to obtain
-GROUP_ID = "19572990"
+GROUP_ID = "REPLACE ME"
 
 # Only update this if Groupme releases a new API
 GROUPME_API_URL = "https://api.groupme.com/v3"
